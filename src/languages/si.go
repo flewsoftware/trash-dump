@@ -1,5 +1,6 @@
 package languages
 
+// "sinhala" language pack
 func GetPackSI() Language {
 	return Language{
 		Iso639Code: "si",

@@ -1,6 +1,7 @@
 package languages
 
-func GetPackEN() Language {
+// "english" language pack
+func getPackEN() Language {
 	return Language{
 		Iso639Code: "en",
 		ConsoleOutputMessages: ConsoleOutputMessages{
