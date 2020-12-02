@@ -23,7 +23,7 @@ func main() {
 	flag.Uint64Var(&noBytes, "noBytes", 10, "No of bytes to generate")
 	flag.Int64Var(&seed, "seed", 1115, "Seed to generate random bytes")
 	flag.BoolVar(&force, "force", false, "Overwrites file if it already exists")
-	flag.StringVar(&fileName, "filename", "trash-dump.tdp", "Name of the file")
+	flag.StringVar(&fileName, "filename", "trash-dump", "Name of the file")
 	flag.StringVar(&flagLanguage, "language", "", "Language")
 	flag.Parse()
 
