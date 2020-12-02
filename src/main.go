@@ -29,6 +29,8 @@ func main() {
 
 	//language
 	language, langErr := languages.GetLanguage()
+	println("System Language: ", language)
+
 	if flagLanguage == "" {
 		if langErr != nil {
 			println("Language couldn't be detected")
